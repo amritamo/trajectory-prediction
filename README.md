@@ -11,6 +11,7 @@ This project has Exploratory Data Analysis (EDA) and model development using LST
     ├── eda
     │   └── exploratory_data_analysis.ipynb
     └── models
+        ├── Baselines.ipynb
         ├── Graph LSTM Approach.ipynb
         └── LSTM Approach.ipynb
 ```
@@ -18,6 +19,7 @@ This project has Exploratory Data Analysis (EDA) and model development using LST
 ## Contents
 
 * **EDA**: Preliminary analysis and visualization of the dataset to understand patterns and structure.
+* **Baselines**: Training and validation of simple baseline models for comparison.
 * **LSTM Models**: Implementation of different architectures.
 
 ## Getting Started
