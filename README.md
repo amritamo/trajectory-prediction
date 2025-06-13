@@ -1,6 +1,6 @@
 # Autobots Roll Out!!
 
-This project has Exploratory Data Analysis (EDA) and model development using LSTM-based approaches for CSE 251B Group Project.
+This project has Exploratory Data Analysis (EDA) and model development using a transformer-based approaches for CSE 251B Group Project.
 
 ## Repository Structure
 
