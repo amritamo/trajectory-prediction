@@ -7,7 +7,7 @@ This project has Exploratory Data Analysis (EDA) and model development using LST
 ```
 
 ├── README.md
-└── milestone
+├── milestone
     ├── eda
     │   └── exploratory_data_analysis.ipynb
     └── models
@@ -16,7 +16,7 @@ This project has Exploratory Data Analysis (EDA) and model development using LST
         ├── LSTM With Addtl Context.ipynb
         └── LSTM Approach.ipynb
 └── final
-    ├── final_model.ipynb
+    └── final_model.ipynb
 ```
 
 ## Contents
