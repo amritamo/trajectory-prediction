@@ -1,6 +1,20 @@
-# Autobots Roll Out!!
+# Abstract
 
-This project has Exploratory Data Analysis (EDA) and model development using a Transformer-based approaches for CSE 251B Group Project.
+Accurate prediction of future vehicle trajectories is important for safe and reliable
+autonomous driving. In this work, we propose a Transformer-based model that
+improves upon standard LSTM baselines by incorporating richer spatiotemporal
+context and multi-agent interactions. Our model architecture incorporates the data
+of all 50 agents in the scene using temporal encoders and multi-head self-attention.
+We introduce an enhanced normalization pipeline that aligns trajectories to the ego
+agent’s heading and decomposes velocity components, resulting in more stable
+and generalizable training. Additionally, we incorporate a validity mask to handle
+padded or missing agent data, increasing robustness in real-world settings. Our
+results demonstrate improved prediction accuracy and reduced error compared to
+the LSTM baseline, highlighting the effectiveness of our approach on the Argoverse
+2 dataset. Our final private Kaggle score was 8.17635 at rank 17, under the name
+"Autobots Roll Out!!".
+
+The final paper highlighting our contributions and experimentation can be viewed at https://github.com/amritamo/trajectory-prediction/blob/main/CSE_251B_Final_Report.pdf
 
 ## Repository Structure
 
